@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hogar & Estilo</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Hogar & Estilo</h1>
+    <nav>
+      <a href="#productos">Productos</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Diseño minimalista para tu hogar</h2>
+    <p>Muebles modernos y decoración con estilo.</p>
+  </section>
+
+  <section id="productos" class="productos">
+    <h2>Productos destacados</h2>
+    <div class="grid">
+      <div class="item">
+        <img src="https://via.placeholder.com/300x200?text=Sofá+Moderno" alt="Sofá moderno">
+        <h3>Sofá Moderno</h3>
+        <p>$450 USD</p>
+      </div>
+      <div class="item">
+        <img src="https://via.placeholder.com/300x200?text=Lámpara+Minimal" alt="Lámpara minimalista">
+        <h3>Lámpara Minimal</h3>
+        <p>$80 USD</p>
+      </div>
+      <div class="item">
+        <img src="https://via.placeholder.com/300x200?text=Estantería+Natural" alt="Estantería">
+        <h3>Estantería Natural</h3>
+        <p>$120 USD</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="nosotros" class="nosotros">
+    <h2>Sobre nosotros</h2>
+    <p>Somos una tienda de diseño enfocada en muebles modernos y decoración funcional con un toque natural. Calidad, sencillez y estilo para tu espacio.</p>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <p>📧 contacto@hogaryestilo.com</p>
+    <p>📍 Calle 123, Ciudad, País</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hogar & Estilo. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
